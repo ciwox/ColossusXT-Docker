@@ -1,6 +1,12 @@
 # ColossusXT-Docker
 ColossusXT Docker
 
+# Running with docker-compose
+docker-compose up -d
+
+# Stopping docker-compose
+docker-compose down
+
 # How to run without volume mapping
 docker run -p 51572:51572 --name colx ciwox/colossusxt:latest
 

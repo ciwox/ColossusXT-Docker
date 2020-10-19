@@ -1,0 +1,7 @@
+version: '2'
+services:
+  colossusxt:
+    image: docker.io/ciwox/colossusxt:latest
+    ports:
+      - 51572:51572
+      - 51573:51573
