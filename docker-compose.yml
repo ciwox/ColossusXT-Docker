@@ -1,9 +1,9 @@
-version: '2'
+version: '3'
 services:
   colossusxt:
     image: docker.io/ciwox/colossusxt:latest
     ports:
-      - 51572:51572
-      - 51573:51573
+      - "51572:51572"
+      - "51573:51573"
     #volumes:
     #  - ./wallet.dat:/home/colossusxt/.ColossusXT/wallet.dat  # add your wallet.dat to this folder if you want to use a custom wallet.dat instead of creating a new one.
