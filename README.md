@@ -2,7 +2,7 @@
 ColossusXT Docker
 
 
-# EASY DEPLOY
+# Easy Deploy - !! Do not forget to edit the ColossusXT.conf file inside the folder.
 ```sh
 git clone https://github.com/ciwox/ColossusXT-Docker.git
 cd ColossusXT-Docker
