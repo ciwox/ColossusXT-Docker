@@ -5,5 +5,6 @@ services:
     ports:
       - "51572:51572"
       - "51573:51573"
-    #volumes:
+    volumes:
+      - ./ColossusXT.conf:/home/colossusxt/.ColossusXT/ColossusXT.conf # Custom conf file
     #  - ./wallet.dat:/home/colossusxt/.ColossusXT/wallet.dat  # add your wallet.dat to this folder if you want to use a custom wallet.dat instead of creating a new one.
