@@ -2,6 +2,14 @@
 ColossusXT Docker
 
 
+# EASY DEPLOY
+```sh
+git clone https://github.com/ciwox/ColossusXT-Docker.git
+cd ColossusXT-Docker
+docker-compose pull
+docker-compose up -d
+```
+
 # Running with docker-compose
 ```sh
 docker-compose up -d
